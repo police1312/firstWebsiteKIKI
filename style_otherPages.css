@@ -223,7 +223,9 @@ a.fixed {
 
 .img-lsys {
     aspect-ratio: 1 / 1;               /* keeps them square */
-    width: 100%;                       /* fills the grid column */
+    width: 100%;   
+    /* margin-top: 15%;   */
+                      /* fills the grid column */
     /* border: 2px solid rgb(0, 0, 0);  */
     background-color: transparent;
     background-size: cover;            /* cover = fills box without stretching */

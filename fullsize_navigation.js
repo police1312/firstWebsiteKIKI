@@ -10,8 +10,6 @@ const zoom_images = [
   "website content batch2/billet20 raster.png",
   "website content batch2/chain raster.png",
   "website content batch2/keyfinal.png",
-  "website content batch2/knife raster.png",
-  "website content batch2/gun raster.png",
   "website content batch2/heart1.png",
   "website content batch2/skull raster.png",
   "website content batch2/human raster1.png",
@@ -20,7 +18,9 @@ const zoom_images = [
   "website content batch2/fire raster.png",
   "website content batch2/nuage alpha1.png",
   "website content batch2/flower raster.png",
-  "website content batch2/hair raster.png"
+  "website content batch2/hair raster.png",
+  "website content batch2/knife raster.png",
+  "website content batch2/gun raster.png"
 ]; 
 let zoom_currentIndex = 0;
 
