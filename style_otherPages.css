@@ -758,11 +758,13 @@ a.works {
 /* random animations styling */
 
 .animations_container {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     grid-template-columns: repeat(2, 1fr); /* always 2 columns */
     justify-content: center;
-    gap: 60px;
-    margin: 60px auto;
+    gap: 5vw;
+    margin: 5vw auto;
     max-width: 1000px; /* keeps things from stretching too wide */
     padding: 10px;
     padding-bottom: 30px;
@@ -770,7 +772,7 @@ a.works {
 
 .animations video{
     aspect-ratio: 1 / 1;
-    width: 30vw;               /* keeps them square */
+    width: 35vw;               /* keeps them square */
     background-color: transparent;
     background-size: cover;            /* cover = fills box without stretching */
     background-repeat: no-repeat;
