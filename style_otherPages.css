@@ -723,6 +723,7 @@ a.works {
     border: 3px solid #fcff48; 
     overflow: hidden;
     position: relative;
+    cursor: zoom-in;
 }
 
   
